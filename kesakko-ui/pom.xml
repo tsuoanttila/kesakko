@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.vaadin.fwteam</groupId>
-	<artifactId>spring-boot-demo-ui</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>kesakko-ui</artifactId>
+	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Spring Boot Demo UI</name>
+	<name>Kesakko UI</name>
 	<description>Demo UI using Spring Boot</description>
 
 	<parent>

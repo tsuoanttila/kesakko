@@ -1,4 +1,4 @@
-package org.vaadin.fwteam.demoui;
+package org.vaadin.fwteam.kesakko;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +24,7 @@ public class DescriptionPanel extends Panel implements InitializingBean {
     @Override
     public void afterPropertiesSet() throws Exception {
         VerticalLayout l = new VerticalLayout();
+        l.setMargin(true);
         l.addComponent(new Label(service.getDescription()));
         String sourceURL = "http://github.com/" + service.getAuthor() + "/"
                 + service.getProjectName();

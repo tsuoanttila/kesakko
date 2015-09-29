@@ -9,9 +9,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan({ "org.vaadin.fwteam", "${groupId}" })
-public class SpringDemoUiApplication {
+public class KesakkoDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringDemoUiApplication.class, args);
+        SpringApplication.run(KesakkoDemoApplication.class, args);
     }
 }

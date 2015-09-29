@@ -3,14 +3,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.vaadin.fwteam</groupId>
-	<artifactId>spring-boot-demo-root</artifactId>
+	<artifactId>kesakko-root</artifactId>
 	<packaging>pom</packaging>
 	<version>0.1-SNAPSHOT</version>
-	<name>Spring Boot Demo Roow Project</name>
+	<name>Kesakko Root Project</name>
 
 	<modules>
-		<module>spring-boot-demo-ui</module>
-		<module>spring-boot-demo-archetype</module>
+		<module>kesakko-ui</module>
+		<module>kesakko-archetype</module>
 	</modules>
 
 </project>

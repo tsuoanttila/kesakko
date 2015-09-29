@@ -1,4 +1,4 @@
-package org.vaadin.fwteam.demoui;
+package org.vaadin.fwteam.kesakko;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.vaadin.fwteam.backend.DemoComponentService;
@@ -14,7 +14,7 @@ import com.vaadin.ui.VerticalLayout;
 
 @SpringUI
 @Theme("valo")
-public class SpringBootDemoUI extends UI {
+public class KesakkoUI extends UI {
 
     private static final long serialVersionUID = -9125772161428013919L;
 

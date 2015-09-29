@@ -1,4 +1,4 @@
-package org.vaadin.fwteam.demoui;
+package org.vaadin.fwteam.kesakko;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +31,7 @@ public class CodeSamplePanel extends Panel implements InitializingBean {
     public void afterPropertiesSet() throws Exception {
         if (service.hasSourceHighlight()) {
             VerticalLayout content = new VerticalLayout();
+            content.setMargin(true);
             setContent(content);
             content.setSizeFull();
             BrowserFrame c = new BrowserFrame("Sample Code",

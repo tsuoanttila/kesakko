@@ -56,8 +56,8 @@
 		</dependency>
 		<dependency>
 			<groupId>org.vaadin.fwteam</groupId>
-			<artifactId>spring-boot-demo-ui</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>kesakko-ui</artifactId>
+			<version>0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
